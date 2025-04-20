@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Logo = () => {
   return (
-    <div className="left h-14/20 pl-4">
+    <div className="left h-8/20 pl-4 sm:h-12/20 md:h-14/20">
       <Link href="/" className="block h-full">
         <Image
           src="/images/logo_yellow_transparent.png"

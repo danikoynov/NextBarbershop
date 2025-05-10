@@ -1,7 +1,7 @@
 import React from "react";
-import Logo from "../sections/logo";
-import NavbarCenter from "../sections/navbarCenter";
-import SocialMedia from "../sections/socialMedia";
+import Logo from "../ui/logo";
+import NavbarCenter from "../ui/navbarCenter";
+import SocialMedia from "../ui/socialMedia";
 
 const Navbar = () => {
   return (
@@ -11,6 +11,7 @@ const Navbar = () => {
     h-20 md:h-24 lg:h-28
     text-white
     flex items-center justify-between
+    relative z-100
     "
     >
       <Logo />

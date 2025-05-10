@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Menu, X } from "lucide-react"; // or any icon set you like
-import NavItem from "../ui/navItem";
+import NavItem from "./navItem";
 
 const NavbarCenter = () => {
   const [open, setOpen] = useState(false);
@@ -27,7 +27,7 @@ const NavbarCenter = () => {
 
       {/* Mobile Dropdown */}
       {open && (
-        <div className="absolute top-full left-1/2 transform -translate-x-1/2 bg-neutral-900 flex flex-col items-center gap-3 py-4 px-6 mt-2 rounded-md shadow-lg z-50">
+        <div className="fixed top-full left-1/2 transform -translate-x-1/2 bg-neutral-900 flex flex-col items-center gap-3 py-4 px-6 mt-2 rounded-md shadow-lg  z-50">
           <NavItem label="Барбери" targetId="barbers" />
           <NavItem label="Услуги" targetId="services" />
           <NavItem label="Работно време" targetId="working" />

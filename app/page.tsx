@@ -1,5 +1,6 @@
 import HeroSection from "./components/sections/hero";
 import Navbar from "./components/sections/navbar";
+import Working from "./components/sections/working";
 import { Rubik } from "next/font/google";
 
 const rubik = Rubik({
@@ -12,6 +13,8 @@ export default function Home() {
       <Navbar />
 
       <HeroSection />
+
+      <Working />
     </div>
   );
 }

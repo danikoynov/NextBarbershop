@@ -3,6 +3,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import HeroData from "../ui/heroData";
 
 const images = [
   "/images/background1.jpg",
@@ -16,7 +17,7 @@ export default function HeroSection() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % images.length);
-    }, 5000);
+    }, 7000);
     return () => clearInterval(interval);
   }, []);
 
@@ -38,15 +39,17 @@ export default function HeroSection() {
               <Image
                 src={src}
                 alt={`Slide ${index + 1}`}
-                width={1920}
-                height={1080}
-                layout="responsive"
+                //width={1920}
+                //height={1080}
+                layout="fill"
                 className="object-cover"
                 priority={index === 0}
               />
             </div>
           ))}
         </div>
+
+        <HeroData />
       </div>
     </u>
   );

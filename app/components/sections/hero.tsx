@@ -23,7 +23,7 @@ export default function HeroSection() {
 
   return (
     <u>
-      <div className="relative h-screen overflow-hidden z-0">
+      <div className="relative h-[80vh] md:h-screen overflow-hidden z-0">
         <div
           className="flex transition-transform duration-1000 ease-in-out h-full z-0"
           style={{

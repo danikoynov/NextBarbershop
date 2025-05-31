@@ -1,7 +1,7 @@
 import React from "react";
-import Logo from "../ui/logo";
-import NavbarCenter from "../ui/navbarCenter";
-import SocialMedia from "../ui/socialMedia";
+import Logo from "../ui/navbar_ui/logo";
+import NavbarCenter from "../ui/navbar_ui/navbarCenter";
+import SocialMedia from "../ui/navbar_ui/socialMedia";
 
 const Navbar = () => {
   return (

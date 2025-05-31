@@ -34,7 +34,7 @@ const Services = () => {
   };
 
   return (
-    <div className="px-2 py-4 lg:p-8">
+    <div className="px-2 py-4 bg-white lg:p-8">
       {/* Title for Services Section */}
       <h2 className="text-5xl font-bold text-center mb-8 text-gray-800 pt-4">
         Нашите Услуги

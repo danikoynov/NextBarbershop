@@ -1,3 +1,5 @@
+import Barbers from "./components/sections/barbers";
+import Location from "./components/sections/location";
 import HeroSection from "./components/sections/hero";
 import Navbar from "./components/sections/navbar";
 import Services from "./components/sections/services";
@@ -15,6 +17,8 @@ export default function Home() {
       <HeroSection />
       <Working />
       <Services />
+      <Barbers />
+      <Location />
     </div>
   );
 }

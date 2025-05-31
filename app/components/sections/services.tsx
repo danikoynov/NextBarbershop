@@ -36,8 +36,8 @@ const Services = () => {
   return (
     <div className="px-2 py-4 bg-white lg:p-8" id="services">
       {/* Title for Services Section */}
-      <h2 className="text-5xl font-bold text-center mb-8 text-gray-800 pt-4">
-        Нашите Услуги
+      <h2 className=" text-3xl md:text-5xl font-bold text-center mb-8 text-gray-800 pt-4">
+        НАШИТЕ УСЛУГИ
       </h2>
       <div className="flex flex-row gap-2 md:gap-8 px-2 py-4 lg:p-8 overflow-hidden">
         <div className="flex flex-col  gap-4 w-1/4 pb-0 ">

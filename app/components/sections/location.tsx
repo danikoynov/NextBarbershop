@@ -3,7 +3,7 @@ import React from "react";
 const Location = () => {
   return (
     <div className="min-h-screen bg-white flex flex-col items-center justify-start px-4">
-      <h1 className="text-3xl md:text-5xl font-bold mb-8 text-center pt-10">
+      <h1 className="text-3xl md:text-5xl font-bold mb-8 text-center pt-10 text-gray-800">
         КЪДЕ МОЖЕ ДА НИ НАМЕРИТЕ
       </h1>
       <div className="w-full max-w-5xl pb-10">

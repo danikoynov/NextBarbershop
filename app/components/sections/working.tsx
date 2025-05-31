@@ -3,7 +3,10 @@ import React from "react";
 import WorkingHoursBox from "../ui/workingHoursBox";
 const Working = () => {
   return (
-    <div className="w-full h-[230px] bg-neutral-900 flex items-center justify-center">
+    <div
+      className="w-full h-[230px] bg-neutral-900 flex items-center justify-center"
+      id="working"
+    >
       <div className="px-4 py-6 w-full max-w-7xl">
         {/* Flex container to make the boxes scale properly */}
         <div className="flex flex-wrap justify-center gap-3 sm:gap-6 md:gap-9">

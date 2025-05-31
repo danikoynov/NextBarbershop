@@ -12,7 +12,7 @@ const ServiceButtons = ({ services, onServiceSelect }: ServiceButtonsProps) => {
       {services.map((service) => (
         <button
           key={service.id}
-          className="px-3 py-2 lg:px-4 lg:py-3 text-xs lg:text-base 
+          className="px-3 py-2 lg:px-4 lg:py-3 text-[11px] lg:text-base 
           bg-amber-400 rounded-md shadow-md
            hover:bg-amber-500 transition-all whitespace-normal text-center w-full "
           onClick={() => onServiceSelect(service.id)}
